@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: #eee;
+}
+
+header * {
+    display: inline;
+    height: 50px;
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+section {
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#hero h1 {
+    font-size: 3em;
+    font-family: Optima, sans-serif;
+    font-weight: 600;
+
+}
+
+section h2 {
+    font-size: 2em;
+    font-family: Bookman, URW Bookman L, serif;
+}
+
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+#hero {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://i.imgur.com/wEvoDIO.jpg');
+}
+
+#about {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://www.aier.org/sites/default/files/Files/WYSIWYG/blog/9491/assorted-blurred-background-boutique-994523.jpg');
+}
+
+#Sugg {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://png.pngtree.com/thumb_back/fw800/back_pic/03/83/07/0057c83d67635f9.jpg')
+}
+#contact {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg');
+}
